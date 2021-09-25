@@ -1,8 +1,12 @@
+import './App.css';
+import Worker from "./components/AllWorker/Worker";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div>
-      <h2>Hello</h2>
+    <div className="App">
+      <Header></Header>
+      <Worker></Worker>
     </div>
   );
 }
