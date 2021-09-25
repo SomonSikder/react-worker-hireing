@@ -1,6 +1,6 @@
 .card {
   width: 250px;
-  height: 300px;
+  height: 350px;
   text-align: center;
   background: #ddd;
   margin: 5px;
@@ -9,15 +9,19 @@
   box-shadow: rgba(247, 104, 116, 0.25) 0px 13px 27px -5px,
     rgba(238, 110, 59, 0.3) 0px 8px 16px -8px;
 }
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
 .worker-img {
-  width: 100px;
-  height: 100px;
+  width: 105px;
+  height: 105px;
   border-radius: 50%;
   margin: 10px;
 }
 .worker-info {
-  text-align: left;
-  line-height: 25px;
+  text-align: center;
+  line-height: 30px;
   padding: 5px;
   border-radius: 10px;
 }
@@ -31,4 +35,7 @@
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
+}
+.hire-btn:hover {
+  background: rgb(236, 159, 130);
 }

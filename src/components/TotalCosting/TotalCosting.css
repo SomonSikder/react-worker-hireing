@@ -19,3 +19,10 @@
 .worker-name {
   color: coral;
 }
+
+li {
+  list-style: none;
+  background: coral;
+  margin: 2px 0;
+  border-radius: 5px;
+}
